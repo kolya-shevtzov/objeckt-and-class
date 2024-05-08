@@ -2,10 +2,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Author Puskin=new Author("Пушкин");
-        System.out.println(Puskin.getAuthor());
-        Author Lermantov=new Author("Лермантов");
-        System.out.println(Lermantov.getAuthor());
+        Author Puskin=new Author("Александр","Пушкин");
+        System.out.println(Puskin.getAuthor()+" "+Puskin.getAuthor2());
+        Author Lermantov=new Author("Михаил","Лермантов");
+        System.out.println(Lermantov.getAuthor()+" "+Lermantov.getAuthor2());
 
         Book bookPuskin=new Book("евгений онегин",1830);
         System.out.println(bookPuskin.getName());
