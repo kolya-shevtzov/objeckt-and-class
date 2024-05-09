@@ -3,9 +3,10 @@ public class Book {
     private int date;
     private Author author;
 
-    public Book(String name, int date) {
+    public Book(String name, int date, Author author) {
         this.name = name;
         this.date = date;
+        this.author = author;
     }
 
     public String getName() {
