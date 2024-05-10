@@ -21,6 +21,6 @@ public class Main {
         System.out.println("bookPushkin.equals(bookPushkin): " + bookPuskin.equals(bookPuskin));
         System.out.println("bookPushkin.equals(bookLermantov): " + bookPuskin.equals(bookLermantov));
         System.out.println(bookLermantov.hashCode());
-        System.out.println(bookPuskin.hashCode());
+        System.out.println(Puskin.hashCode());
     }
 }
