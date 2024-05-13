@@ -47,6 +47,6 @@ public class Book {
     }
     public String toString(){
         return name+date+author;
-
+я
     }
 }
