@@ -36,15 +36,17 @@ public class Book {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Book book = (Book) o;
-        return Objects.equals(name, book.name);
+        return Objects.equals(name, book.name) &&
+                Objects.equals(date, book.date) &&
+                Objects.equals(author, book.author);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name);
+        return Objects.hash(name, date, author);
     }
     public String toString(){
-        return name+date;
+        return name+date+author;
 
     }
 }
